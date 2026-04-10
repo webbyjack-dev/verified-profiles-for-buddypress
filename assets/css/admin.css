@@ -1,0 +1,160 @@
+/**
+ * Admin styles for Verified Badge for BuddyPress.
+ *
+ * @package BP_Verified_Badge
+ * @since   2.8.0
+ */
+
+/* ==========================================================================
+   Page wrapper
+   ========================================================================== */
+
+.bp-v-wrap {
+	margin-top: 20px;
+	max-width: 1000px;
+}
+
+/* ==========================================================================
+   Page header
+   ========================================================================== */
+
+.bp-v-header {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccd0d4;
+	border-bottom: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bp-v-header h1 {
+	margin: 0;
+}
+
+.bp-v-upgrade-btn {
+	background: #edb431 !important;
+	border-color: #dca21a !important;
+	color: #000 !important;
+	font-weight: bold !important;
+}
+
+/* ==========================================================================
+   Tab navigation
+   ========================================================================== */
+
+.bp-v-nav {
+	margin: 0 !important;
+}
+
+/* ==========================================================================
+   Content card
+   ========================================================================== */
+
+.bp-v-card {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	padding: 20px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.04 );
+}
+
+/* ==========================================================================
+   Pro badge (tab label)
+   ========================================================================== */
+
+.bp-v-pro-badge {
+	display: inline-block;
+	background: #edb431;
+	color: #000;
+	padding: 2px 6px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 3px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+/* ==========================================================================
+   Pro locked overlay
+   ========================================================================== */
+
+.bp-v-pro-locked {
+	opacity: 0.5;
+	pointer-events: none;
+	user-select: none;
+	filter: grayscale( 1 );
+}
+
+/* ==========================================================================
+   Upsell banner
+   ========================================================================== */
+
+.bp-v-upsell-box {
+	background: #f0f6fb;
+	border-left: 4px solid #0073aa;
+	padding: 15px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bp-v-upsell-title {
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bp-v-upsell-sub {
+	margin: 0;
+	color: #646970;
+}
+
+/* ==========================================================================
+   Manual verification grid
+   ========================================================================== */
+
+.bp-v-verify-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin-top: 10px;
+}
+
+.bp-v-verify-box {
+	padding: 15px;
+	border: 1px solid #f0f0f1;
+	background: #f9f9f9;
+	border-radius: 4px;
+}
+
+.bp-v-full-width {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   Automation rows
+   ========================================================================== */
+
+.bp-v-automation-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fff;
+	border: 1px dashed #ccc;
+}
+
+/* ==========================================================================
+   Verified users list
+   ========================================================================== */
+
+.bp-v-remove-link {
+	color: #d63638;
+}
+
+.bp-v-remove-link:hover {
+	color: #a00;
+}

@@ -1,0 +1,31 @@
+/**
+ * Front-end badge styles for Verified Badge for BuddyPress.
+ *
+ * Loaded only on BuddyPress user profile pages.
+ *
+ * @package BP_Verified_Badge
+ * @since   2.8.0
+ */
+
+/* ==========================================================================
+   Base badge sizing and alignment
+   ========================================================================== */
+
+.bp-verified-svg {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-left: 6px;
+}
+
+/* ==========================================================================
+   Larger badge inside prominent profile headers
+   ========================================================================== */
+
+#item-header-content h2 .bp-verified-svg,
+.item-header-name .bp-verified-svg {
+	width: 24px;
+	height: 24px;
+}
